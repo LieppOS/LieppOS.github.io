@@ -17,6 +17,7 @@
   - [NFC](devices/ulefone-armor-29-pro-thermal/hardware-nfc.md)
   - [USB and uSmart](devices/ulefone-armor-29-pro-thermal/hardware-usmart.md)
   - [Partition map](devices/ulefone-armor-29-pro-thermal/partitions.md)
+  - [OrangeFox recovery](devices/ulefone-armor-29-pro-thermal/orangefox.md)
   - [Known limitations](devices/ulefone-armor-29-pro-thermal/known-limitations.md)
   - [Development status](devices/ulefone-armor-29-pro-thermal/development-status.md)
 
@@ -43,10 +44,6 @@
 - [AVB and trust](android/avb.md)
 - [Android 17 Slot-B experiment](android/android17-slot-b.md)
 - [Vendor integration](android/vendor-integration.md)
-
-# Recovery
-
-- [OrangeFox](recovery/orangefox.md)
 
 # Development
 
