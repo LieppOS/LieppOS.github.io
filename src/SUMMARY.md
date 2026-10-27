@@ -17,6 +17,7 @@
   - [NFC](devices/ulefone-armor-29-pro-thermal/hardware-nfc.md)
   - [USB and uSmart](devices/ulefone-armor-29-pro-thermal/hardware-usmart.md)
   - [Partition map](devices/ulefone-armor-29-pro-thermal/partitions.md)
+  - [Untapped capabilities](devices/ulefone-armor-29-pro-thermal/capabilities.md)
   - [OrangeFox recovery](devices/ulefone-armor-29-pro-thermal/orangefox.md)
   - [Known limitations](devices/ulefone-armor-29-pro-thermal/known-limitations.md)
   - [Development status](devices/ulefone-armor-29-pro-thermal/development-status.md)
