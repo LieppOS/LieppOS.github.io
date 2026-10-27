@@ -1,0 +1,19 @@
+[book]
+title = "LieppOS — Ulefone Armor 29 Pro Thermal Research"
+authors = ["LieppOS"]
+description = "Evidence-based research on the Ulefone Armor 29 Pro Thermal (GQ5012BF1): hardware, kernel, firmware and Android development."
+language = "en"
+src = "src"
+
+[build]
+create-missing = false
+build-dir = "book"
+
+[output.html]
+default-theme = "ayu"
+preferred-dark-theme = "ayu"
+git-repository-url = "https://github.com/LieppOS/LieppOS-ulefone-gq5012bf1-research"
+
+[output.html.search]
+enable = true
+limit-results = 30
