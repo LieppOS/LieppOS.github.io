@@ -10,10 +10,35 @@ create-missing = false
 build-dir = "book"
 
 [output.html]
+# Published as an organisation root site: https://lieppos.github.io/
+# site-url is required for correct absolute asset/link resolution behind Pages.
+site-url = "/"
 default-theme = "ayu"
 preferred-dark-theme = "ayu"
-git-repository-url = "https://github.com/LieppOS/LieppOS-ulefone-gq5012bf1-research"
+# Points at the documentation repository itself, not the research repository:
+# the "edit this page" affordance must lead to an editable file.
+git-repository-url = "https://github.com/LieppOS/LieppOS.github.io"
+git-repository-icon = "fab-github"
+edit-url-template = "https://github.com/LieppOS/LieppOS.github.io/edit/main/src/{path}"
+no-section-label = false
+hash-files = true
+
+[output.html.fold]
+enable = true
+level = 1
 
 [output.html.search]
 enable = true
 limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+
+[output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = false
+
+[output.html.print]
+enable = true
+page-break = true
